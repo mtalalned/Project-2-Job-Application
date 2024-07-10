@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #a9a9a9; 
+}
+h1 {
+    font-size: 8rem;
+}
+input {
+    border: 1px solid #000000;
+    height: 60px;
+}
+.address {
+    height: 175px;
+}
