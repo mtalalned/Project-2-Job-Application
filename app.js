@@ -1,0 +1,1 @@
+document.getElementById("myDate").defaultValue = '10-12-2022'
