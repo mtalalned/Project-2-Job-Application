@@ -13,6 +13,11 @@ body {
     margin: 0 auto;
     border-radius: 15px;
 }
+.box {
+    border: 1px solid black;
+    max-width: 550px;
+    min-width: 400px;
+}
 h1 {
     font-size: 6.5rem;
 }
@@ -32,4 +37,32 @@ button {
     background-color:#ff0000;
     border: none;
     margin-top: 65px;
+}
+@media (max-width: 575px) {
+    .box {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    input , select {
+        height: 40px
+    }
+    html {
+        font-size: 40%;
+    }
+    button {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 372px) {
+    h1 {
+        font-size: 5rem;
+    }
+    span {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 906px) {
+    h1 {
+        text-align: center;
+    }
 }
